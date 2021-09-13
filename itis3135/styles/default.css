@@ -2,7 +2,8 @@ body
 {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	color: #000000 ;
-	background-color: #6f01ff;
+	background-color: #448D76
+	;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -10,13 +11,13 @@ body
 header, footer
 {
 	text-align: center;
-	color: #4bf445;
+	color: #FD4D0C;
 	font-weight: bold;
 }
 
 h1, h2, h3
 {
-	color: #4bf445;
+	color: #FD4D0C;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 }
@@ -53,3 +54,26 @@ nav
 {
 	text-align: center;
 }
+
+
+button {
+
+	background-color: #000000;
+	color: white;
+}
+
+
+/* Apply 4 CSS properties to any of your input elements, such as colors, fonts, sizes, or layout. */
+
+label {
+
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #093426;
+
+}
+
+input {
+	font-style: italic;
+	background-color: #68d8c0
+}
+
