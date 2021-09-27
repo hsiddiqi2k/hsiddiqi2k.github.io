@@ -81,7 +81,7 @@ function sum()
     var first = window.prompt("Enter first number");
     var second = window.prompt("Enter second number")
 
-    var total = first + second;
+    var total = +first + +second;
 
     alert("The total is: " + total);
 }
