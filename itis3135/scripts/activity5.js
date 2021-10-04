@@ -1,7 +1,7 @@
 function welcome()
 {
 
-    var companyName = "Hungry Hawk"
+    var companyName = "Hungry Hawk";
 
     
     var name = window.prompt("Enter your name: ");
