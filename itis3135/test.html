@@ -1,0 +1,25 @@
+<script>
+	function color(color_type){
+		if (color_type == 'blue'){
+			document.getElementById('blue').style.display = 'block';
+			document.getElementById('red').style.display = 'none';
+		} 
+		else{
+			document.getElementById('blue').style.display = 'none';
+			document.getElementById('red').style.display = 'block';
+		}
+	}
+	</script>
+	
+	<select onchange="color(this.value)">
+		<option name="choice1" value="red" >red</option>
+		<option name="choice2" value="blue" >blue</option>
+	</select>
+	
+	<div id="red" style="display:none;">
+		<p>You want RED</p>
+	</div>
+	
+	<div id="blue" style="display:none;">
+		<p>You want BLUE</p>
+	</div>
