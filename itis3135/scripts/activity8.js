@@ -7,7 +7,9 @@ alert("running");
 var salaries = [];
 var people = [];
 
-
+var average = 0;
+var total = 0;
+var maxSalary = 0;
 
 function addSalary()
 {
@@ -23,7 +25,7 @@ function addSalary()
 function displayResults()
 {
 
-    var total = 0;
+    total = 0;
     for(var i = 0; i < salaries.length; i++) 
     {
         total += salaries[i];
