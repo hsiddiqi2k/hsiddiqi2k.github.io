@@ -2,7 +2,7 @@ body
 {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	color: #000000 ;
-	background-color: #448D76
+	background-color: #EF626C;
 	;
 	margin-left: 75px;
 	margin-right: 75px;
@@ -11,33 +11,22 @@ body
 header, footer
 {
 	text-align: center;
-	color: #FD4D0C;
+	color: #312F2F;
 	font-weight: bold;
 }
 
 h1, h2, h3
 {
-	color: #FD4D0C;
+	color: #84DCCF;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 }
 
-h3
-{
-	font-size: 200%;
-	line-height: 0px;
-}
-
-h4
-{
-	text-align: center;
-}
 
 a
 {
 	text-decoration: none;
-	color:ivory;
-	text-align: center;
+	color:#F6E8EA;
 }
 
 a:hover
@@ -90,5 +79,3 @@ input {
 	font-style: italic;
 	background-color: #68d8c0
 }
-
-
