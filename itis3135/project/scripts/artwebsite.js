@@ -43,6 +43,11 @@ $( document ).ready(function() {
           var item = '<li><a href="#" data-animation="' + animation + '">' + animation + '</a></li>';
           $('#change-animation ul').append(item);
         }
+
+
+
+
+        
       
       
 });
